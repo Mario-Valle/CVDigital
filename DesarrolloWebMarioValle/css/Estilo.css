@@ -1,0 +1,38 @@
+table
+    {
+        border-spacing: 0;
+        border:1px;
+        border:1px solid gray;
+        overflow-y: auto;
+        /*border="1" cellspacing="0" cellpadding="2" bordercolor="666633"*/
+    }
+
+th
+    {
+        border-spacing: 0;
+        border:1px;
+        border:1px solid gray;
+        height: 4px;
+        font-family: sans-serif;
+    }
+
+td
+    {
+        border-spacing: 0;
+        border:1px solid gray;
+        text-align: center;
+        height: 4vh !important;
+        font-family: sans-serif;
+        /*border="1" cellspacing="0" cellpadding="2" bordercolor="666633"*/
+    }
+
+b /* Si uso b.form solo aplicará formato a la etiqueta b llamda form del formulario*/
+{
+    /*font-size: 14px;
+    text-align: left;
+    width: 15%;*/
+    float: left;
+    margin: .3em 2% 0 0;
+    font-family: sans-serif;
+}
+

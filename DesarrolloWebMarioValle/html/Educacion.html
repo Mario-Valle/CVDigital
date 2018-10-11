@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/Estilo.css" /> 
+    <meta charset="UTF-8" />
+	<title>Educación</title>
+	<style>
+	/*
+	*{margin:0;	padding:0;}
+	
+	html{background-color:silver;}
+	body{width:800px; height:1058px; margin:auto; background-color:white;}
+	*/
+
+	header#DatosPersonales {border:3px blue solid; width:400px; height:150px; float:left;	background-color:blue; box-shadow: 6px 6px 0px lightgray; font-family: sans-serif, Arial, Verdana;}
+
+	section#Enlaces {margin-top: 0px; border:5px; width:405px; height:130px; float:left;	background-color:blue; box-shadow: 6px 6px 0px lightgray; font-family: sans-serif, Arial, Verdana;}
+
+	div#Perfil {border:3px blue solid; width:600px; height:410px; float:left;	background-color:blue; box-shadow: 6px 6px 0px lightgray; font-family: sans-serif, Arial, Verdana; font-size: 10px;}
+
+	footer#PiePagina {border:3px blue solid; width:400px; height:150px; float:left;	background-color:green; box-shadow: 6px 6px 0px lightgray; font-family: sans-serif, Arial, Verdana;}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="Logo">
+		<svg width="100px" height="100px" viewport="0 0 100 100" style="border: 8px lightgray solid;"> 	
+			<image width="100px" height="100px" xlink:href="../svg/MBVR.svg"></image>
+		</svg>
+	</div>
+
+	<br>
+	<div style="background-color:; width: 420px; height: 164px;">
+		<header id="DatosPersonales" style="color: white;">
+			<h1>Hoja de vida</h1>
+			<h2>Mario Benito Valle Rocha</h2>
+			<h3>30/06/1979  Le&oacute;n - Nicaragua</h3>		
+		</header>
+	</div>
+
+
+<br>
+	<div style="background-color:; width: 420px; height: 138px; color: white;">
+		<nav>
+			<section id="Enlaces">
+				<a href="../index.html"><h3 style="margin-left:5px; color: white;"> Inicio </h3></a>
+				<a href="../html/Educacion.html"><h3 style="margin-left:5px; color: white;"> Educaci&oacute;n </h3></a>
+				<a href="../html/Experiencia.html"><h3 style="margin-left:5px; color: white;"> Experiencia </h3></a>
+			</section>
+		</nav>
+	</div>
+
+
+	<div id="Educacion" style="background-color:; width: 550px; height: 200px; color: black;">
+		<h2 style="font-family:sans-serif;">Educacion</h2>
+		<table class="Estilo">
+			<thead>
+				<tr>
+					<th width="50px"> Año </th>
+					<th width="100px"> Institución </th>
+					<th width="60px"> Lugar </th>
+					<th width="50px"> ¿Culminó? </th>
+				</tr>
+			</thead>
+			<tbody>
+		      	<tr>
+		            <td>2003</td>
+		            <td >Universidad de Ciencias Comerciales</td>
+		            <td>Léon</td>
+		            <td>Si</td>
+		        </tr>
+		        <tr>
+		            <td>2007</td>
+		            <td>Instituto Tecnológico para Administración y Economía</td>
+		            <td>Léon</td>
+		            <td>Si</td>
+		        </tr>
+		        <tr>
+		            <td>2018</td>
+		            <td>American Language Center</td>
+		            <td>Léon</td>
+		            <td>No</td>
+		        </tr>
+			</tbody>
+			<tfoot>
+				
+			</tfoot>
+		</table>
+	</div>
+
+	<br>
+	<div id="Formulario">
+		<form name="formContacto" autocomplete="on" style="background-color:; width: 557px; height:240px;">
+			<h2 style="font-family:sans-serif;">Agregar Estudio</h2>
+			<!--<fieldset style="width:527px; background-color:"> -->
+			<b for="annos">Año: </b>
+				<select name="annos" style="width:60px;height:25px; margin-left:50px;">
+					<option>2018</option>
+				    <option>2019</option>
+				    <option>2020</option>
+				    <option>2021</option>
+				    <option>2022</option>
+				</select>
+				<br><br>
+				<b for="institucion">Institución: </b> <input type="text" name="Institución" placeholder="Introduzca Institución" style="width:200px;height:18px; margin-left:0px;" autofocus required>
+				<br><br>
+				<b for="lugar" class="form">Lugar: </b> <textarea name="name" rows="2" cols="48" placeholder="Introduzca lugar" style="margin-left:35px; font-family: sans-serif;"></textarea>
+				<br><br>
+				<input type="submit" value="Enviar" style="color:black;height:28px; width:100px; margin-bottom:110px; border-radius:05em; background-color:lightgray; font-family: sans-serif; font-size: 14px; font-weight: bold;">
+
+			<!-- </fieldset> -->			
+		</form>
+	</div>
+
+	<div id="PiePagina">
+	<footer id="PiePagina" style="background-color:blue; width: 550px; height: 130px;">
+		<address>
+			<h4 style="margin-left:5px; color: white;">
+				Teléfono: (505) 8428-8975cl, (505) 8971-8813mv <br>
+				correo: ingmvalle@yahoo.com <br>
+				Ciudad: León Nicaragua
+			</h4>
+  		</address>
+  		<p><h4 style="margin-left:5px; color: white;">Última modificación: 28 de septiembre del 2018</h4></p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_16">
+   <stop offset="0" stop-color="#ff0000"/>
+   <stop offset="0.51857" stop-color="#00ffff"/>
+   <stop offset="1" stop-color="#ff0000"/>
+  </linearGradient>
+  <linearGradient id="svg_17">
+   <stop offset="0" stop-color="#ff0000"/>
+   <stop offset="0.491226" stop-color="#00ffff"/>
+   <stop offset="1" stop-color="#ff0000"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="url(#svg_16)" height="308.100207" id="svg_7" stroke="#ea0404" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" width="639.712209" x="-0.31848" y="-2.366802"/>
+  <polygon cx="332.5" cy="107.5" fill="#ea0ecd" id="svg_2" orient="point" point="5" points="538.544 146.423 554.282 183.735 602.206 184.54 564.009 208.405 577.889 246.215 538.544 223.652 499.199 246.215 513.079 208.405 474.882 184.54 522.806 183.735 538.544 146.423 554.282 183.735" r="76.805671" r2="30.722268" shape="star" stroke="#050003" stroke-width="0" strokeWidth="0" strokecolor="#000000"/>
+  <rect fill="url(#svg_17)" height="269.699157" id="svg_6" stroke="#ea0404" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" width="638.625278" x="0.768539" y="212.701338"/>
+  <line fill="none" id="svg_9" stroke="#ea0404" stroke-dasharray="null" stroke-linecap="round" stroke-linejoin="null" stroke-width="4" x1="0.76088" x2="637.717403" y1="227.082118" y2="229.157852"/>
+  <line fill="none" id="svg_10" stroke="#ea0404" stroke-dasharray="null" stroke-linecap="round" stroke-linejoin="null" stroke-width="4" x1="0.217373" x2="637.173917" y1="271.710394" y2="273.786127"/>
+  <line fill="none" id="svg_11" stroke="#ea0404" stroke-dasharray="null" stroke-linecap="round" stroke-linejoin="null" stroke-width="4" x1="0.217374" x2="637.173939" y1="243.687994" y2="245.763728"/>
+  <line fill="none" id="svg_12" stroke="#ea0404" stroke-dasharray="null" stroke-linecap="round" stroke-linejoin="null" stroke-width="4" x1="0.217373" x2="637.173897" y1="290.391993" y2="292.467726"/>
+  <text fill="#ffffff" font-family="serif" font-size="24" id="svg_1" stroke="#ea0404" stroke-width="0" style="cursor: move;" text-anchor="middle" transform="matrix(8.47899 0 0 6.7948 -2860.35 -1418.5)" x="375.371806" xml:space="preserve" y="255.140935">MBVR</text>
+ </g>
+</svg>
